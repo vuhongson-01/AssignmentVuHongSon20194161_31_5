@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragment.CurrencyFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <Spinner
+            android:id="@+id/spn_category_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:spinnerMode="dropdown"
+            android:padding="10dp"
+            android:background="@drawable/custom_spinner_bgr"/>
+
+        <TextView
+            android:id="@+id/input_currency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="0"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <Spinner
+            android:id="@+id/spn_category_output"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:spinnerMode="dropdown"
+            android:padding="10dp"
+            android:background="@drawable/custom_spinner_bgr"/>
+
+        <TextView
+            android:id="@+id/output_currency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="0"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="@dimen/calcButtonTextSize"
+                android:background="@null"
+                android:textColor="@color/red"
+                android:id="@+id/input_C"
+                android:text="C" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="@dimen/calcButtonTextSize"
+                android:background="@null"
+                android:textColor="@color/white"
+                android:id="@+id/input_BS"
+                android:text="BS" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="@dimen/calcButtonTextSize"
+                android:background="@null"
+                android:textColor="@color/white"
+                android:id="@+id/input_7"
+                android:text="7" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="@dimen/calcButtonTextSize"
+                android:background="@null"
+                android:textColor="@color/white"
+                android:id="@+id/input_8"
+                android:text="8" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="@dimen/calcButtonTextSize"
+                android:background="@null"
+                android:textColor="@color/white"
+                android:id="@+id/input_9"
+                android:text="9" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="@dimen/calcButtonTextSize"
+                android:background="@null"
+                android:textColor="@color/white"
+                android:id="@+id/input_4"
+                android:text="4" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="@dimen/calcButtonTextSize"
+                android:background="@null"
+                android:textColor="@color/white"
+                android:id="@+id/input_5"
+                android:text="5" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="@dimen/calcButtonTextSize"
+                android:background="@null"
+                android:textColor="@color/white"
+                android:id="@+id/input_6"
+                android:text="6" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/input_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="@dimen/calcButtonTextSize"
+                android:background="@null"
+                android:textColor="@color/white"
+                android:text="1" />
+            <Button
+                android:id="@+id/input_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="@dimen/calcButtonTextSize"
+                android:background="@null"
+                android:textColor="@color/white"
+                android:text="2" />
+            <Button
+                android:id="@+id/input_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="@dimen/calcButtonTextSize"
+                android:background="@null"
+                android:textColor="@color/white"
+                android:text="3" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="@dimen/calcButtonTextSize"
+                android:background="@null"
+                android:textColor="@color/white"
+                android:id="@+id/input_dot"
+                android:text="." />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="@dimen/calcButtonTextSize"
+                android:background="@null"
+                android:textColor="@color/white"
+                android:id="@+id/input_0"
+                android:text="0" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

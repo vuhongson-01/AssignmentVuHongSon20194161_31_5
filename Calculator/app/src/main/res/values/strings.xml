@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="calculator">Calculator</string>
+    <string name="currency">Currency</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="dolar">Dolar</string>
+    <string name="dong">VND</string>
+
+    <string-array name="currency_unit">
+        <item>VND (Vietnam)</item>
+        <item>USD (USA)</item>
+        <item>Yuan (China)</item>
+        <item>Yen (Japan)</item>
+        <item>Won (Korea)</item>
+        <item>Rupe (Rusia)</item>
+        <item>Euro (EU)</item>
+    </string-array>
+</resources>
